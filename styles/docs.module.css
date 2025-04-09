@@ -1,0 +1,114 @@
+/* styles/docs.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Kanit', sans-serif;
+    padding: 20px;
+  }
+  
+  .form-container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .textbox {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* styles/docs.module.css */
+  .textareaLarge {
+    width: 100%;       /* ให้ textarea กว้างเต็มพื้นที่ */
+    height: 200px;     /* ปรับความสูงของ textarea ให้สูงขึ้น */
+    padding: 10px;     /* เพิ่มระยะห่างภายใน */
+    border-radius: 5px; /* ขอบมน */
+    border: 1px solid #ccc; /* เส้นขอบที่เบา */
+    resize: vertical; /* ให้สามารถปรับขนาดได้ในแนวตั้งเท่านั้น */
+  }
+  
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .indent {
+    margin-left: 20px;
+  }
+  
+  /* styles/docs.module.css */
+  .button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .btn-danger {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  
+  #committee-list {
+    margin-bottom: 20px;
+  }
+  
+  .committee-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .committee-row select {
+    margin-right: 10px;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .btn-danger {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .remove-row {
+    margin-left: 10px;
+  }
+  
+  .mt-3 {
+    margin-top: 30px;
+  }
+  
+  .mt-2 {
+    margin-top: 20px;
+  }
+  
+  .mb-2 {
+    margin-bottom: 20px;
+  }
+  
